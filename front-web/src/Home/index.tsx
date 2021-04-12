@@ -1,12 +1,14 @@
+import Footer from '../Footer';
 import {ReactComponent as MainImage} from './Imagem.svg';
 
 import './styles.css'
 function Home(){
     return(
-        <div className="main-header">
+        <>
+        <div className="home-container">
             <div className="home-content">
                 <div className="home-actions">
-                    <h1>
+                    <h1 className="home-title">
                         Faça seu pedido<br/>
                         que entregamos<br/>
                         pra você!!!
@@ -24,6 +26,8 @@ function Home(){
                 </div>
             </div>
         </div>
+        <Footer/>
+        </>
     )
 }
 
