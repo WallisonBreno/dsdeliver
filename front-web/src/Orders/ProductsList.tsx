@@ -1,4 +1,3 @@
-import { type } from "node:os";
 import ProductCard from "./ProductCard";
 import { Product } from "./types";
 
